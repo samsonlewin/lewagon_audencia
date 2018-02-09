@@ -1,0 +1,22 @@
+@import url("components/banner.css");
+@import url("components/cards.css");
+@import url("components/footer.css");
+@import url("components/btn-treehouse.css");
+@import url("components/nav.css");
+
+.row1 {
+	margin-bottom: 50px;
+}
+
+.assets{
+	margin-bottom: 70px;
+	text-align: center;
+}
+
+.subtitle{
+	margin-top: 20px;
+}
+
+body{
+	font-family: 'Roboto', sans-serif;
+}
