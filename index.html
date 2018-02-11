@@ -150,6 +150,42 @@
 	</div>
 </div>
 
+<!-- map --> 
+    	<div class="title_map">
+    		<h2 >En decouvrir plus sur la ville de Nantes</h2>
+    	</div>
+    <div class="main-container">
+      <div class="results-container">
+        <div class="card" style="background-image: url(img/anneaux.jpeg)">Les Anneaux</div>
+        <div class="card" style="background-image: url(img/cathedrale.jpeg)">La Cathedrale</div>
+        <div class="card" style="background-image: url(img/chateau.jpeg)">Le Chateay</div>
+        <div class="card" style="background-image: url(img/elephant.jpeg)">L'Elephant</div>
+        <div class="card" style="background-image: url(img/ile.jpeg)">L'Ile</div>
+        <div class="card" style="background-image: url(img/opera.jpeg)">L'Opera</div>
+        <div class="card" style="background-image: url(img/anneaux.jpeg)">Les Anneaux</div>
+        <div class="card" style="background-image: url(img/cathedrale.jpeg)">La Cathedrale</div>
+        <div class="card" style="background-image: url(img/chateau.jpeg)">Le Chateay</div>
+        <div class="card" style="background-image: url(img/elephant.jpeg)">L'Elephant</div>
+        <div class="card" style="background-image: url(img/ile.jpeg)">L'Ile</div>
+        <div class="card" style="background-image: url(img/opera.jpeg)">L'Opera</div>
+        <div class="card" style="background-image: url(img/anneaux.jpeg)">Les Anneaux</div>
+        <div class="card" style="background-image: url(img/cathedrale.jpeg)">La Cathedrale</div>
+        <div class="card" style="background-image: url(img/chateau.jpeg)">Le Chateay</div>
+        <div class="card" style="background-image: url(img/elephant.jpeg)">L'Elephant</div>
+        <div class="card" style="background-image: url(img/ile.jpeg)">L'Ile</div>
+        <div class="card" style="background-image: url(img/opera.jpeg)">L'Opera</div>
+        <div class="card" style="background-image: url(img/anneaux.jpeg)">Les Anneaux</div>
+        <div class="card" style="background-image: url(img/cathedrale.jpeg)">La Cathedrale</div>
+        <div class="card" style="background-image: url(img/chateau.jpeg)">Le Chateay</div>
+        <div class="card" style="background-image: url(img/elephant.jpeg)">L'Elephant</div>
+        <div class="card" style="background-image: url(img/ile.jpeg)">L'Ile</div>
+        <div class="card" style="background-image: url(img/opera.jpeg)">L'Opera</div>
+      </div>
+
+      <div id="map"></div>
+    </div>
+
+
 <div class="footer">
   	<div class="footer-links">
 	    <a href="#"><i class="fa fa-github"></i></a>
@@ -167,5 +203,21 @@
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<script>
+      function initMap() {
+        // Create a map object and specify the DOM element for display.
+        var map = new google.maps.Map(document.getElementById('map'), {
+          center: {lat: 47.2172500, lng: -1.5533600},
+          scrollwheel: false,
+          zoom: 8
+        });
+      }
+    </script>
+    <!-- Gmaps JavaScript -->
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAxnHabLzuePlX5wcek02w3kzdrx1ZHQsI&callback=initMap"></script>
+
+
+
 </body>
 </html>

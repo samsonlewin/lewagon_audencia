@@ -3,6 +3,7 @@
 @import url("components/footer.css");
 @import url("components/btn-treehouse.css");
 @import url("components/nav.css");
+@import url("components/map.css");
 
 .row1 {
 	margin-bottom: 50px;
@@ -19,4 +20,13 @@
 
 body{
 	font-family: 'Roboto', sans-serif;
+}
+
+.main-container{
+	margin-top: 20px;
+}
+
+.title_map{
+	text-align: center;
+	margin-top: 50px;
 }
